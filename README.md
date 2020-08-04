@@ -6,7 +6,7 @@ A 6-month Course in .NET Core, OOP, and Backend Software Development
 
 | Unit Name | Topics | Timeframe |
 |-----------|--------|-----------|
-| [`Hello World`](./unit_01/overview.md) | git, GitHub, Visual Studio, .NET Core Console App | 2 Weeks |
+| [`Hello World`](./unit_01/README.md) | git, GitHub, Visual Studio, .NET Core Console App | 2 Weeks |
 | OOP Basics | C#, Encapsulation, Data Abstraction, Polymorphism, Inheritance | 3 Weeks |
 | Consuming REST Interfaces | HTTP, REST, JSON | 3 Weeks |
 | Building REST Interfaces | WebAPI, ASP.NET | 3 Weeks |
@@ -36,7 +36,7 @@ All assignments will be done through GitHub.
 
 ### GitHub Flow for Longer Projects
 
-Longer group projects will be hosted in an organization GitHub repo. The teacher will create the empty repo and ensure all group members have approprate access to it.
+Longer group projects will be hosted in an organization GitHub repo. The teacher will create the empty repo and ensure all group members have appropriate access to it.
 
 Students will use branching to add features. Teachers and Students will add Issues that need to be addressed, and referenced by number in commit messages.
 
