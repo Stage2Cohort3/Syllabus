@@ -10,8 +10,8 @@ The purpose of Unit One is to familiarize students with the tools and developmen
 
 - git
 - GitHub
-- GitKraken
 - Visual Studio
+- GitKraken
 
 ## Lessons
 

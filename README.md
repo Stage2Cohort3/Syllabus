@@ -4,16 +4,16 @@ A 6-month Course in .NET Core, OOP, and Backend Software Development
 
 ## Units
 
-| Unit Name | Topics | Timeframe |
-|-----------|--------|-----------|
-| [`Hello World`](./unit_01/README.md) | git, GitHub, Visual Studio, .NET Core Console App | 2 Weeks |
-| OOP Basics | C#, Encapsulation, Data Abstraction, Polymorphism, Inheritance | 3 Weeks |
-| Consuming REST Interfaces | HTTP, REST, JSON | 3 Weeks |
-| Building REST Interfaces | WebAPI, ASP.NET | 3 Weeks |
-| Databases | SQL, ERD | 2 Weeks |
-| Intermediate OOP | Singletons, Factories, Design Patterns | 2 Weeks |
-| Servers and CI/CD | Windows Servers, IIS, AzureDevOps | 3 Weeks |
-| Final Project | All of the above | 4 Weeks |
+| Unit Num | Unit Name | Topics | Timeframe |
+|----------:|-----------|--------|-----------|
+| 1 | [`Hello World`](./unit_01/README.md) | git, GitHub, Visual Studio, .NET Core Console App | 2 Weeks |
+| 2 | [OOP Basics](./unit_02/README.md)| C#, Encapsulation, Data Abstraction, Polymorphism, Inheritance | 3 Weeks |
+| 3 | [Consuming REST Interfaces](./unit_03/README.md)| HTTP, REST, JSON | 3 Weeks |
+| 4 | [Building REST Interfaces](./unit_04/README.md)| WebAPI, ASP .NET | 3 Weeks |
+| 5 | [Databases](./unit_05/README.md)| SQL, ERD | 2 Weeks |
+| 6 | [Intermediate OOP](./unit_06/README.md)| Singletons, Factories, Design Patterns | 2 Weeks |
+| 7 | [Servers and CI/CD](./unit_07/README.md)| Windows Servers, IIS, AzureDevOps | 3 Weeks |
+| 8 | [Final Project](./unit_08/README.md)| All of the above | 4 Weeks |
 
 ## Assignments and Projects
 

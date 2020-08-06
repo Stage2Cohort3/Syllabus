@@ -6,7 +6,8 @@
 ## Prerequisites 
 
 - Personal GitHub Account
-- GitKraken Free Edition installed
+- git installed
+- GitKraken installed
 
 ## Instructions
 
