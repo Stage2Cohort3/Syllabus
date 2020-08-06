@@ -22,9 +22,10 @@ The purpose of Unit Three is to familiarize students with the tools and interfac
 
 | Name | Associated Repo | Type |
 |------|-----------------|------|
-| [The Internet and You!](TODO) | TODO | Lecture |
-| [GETing Data](TODO) | TODO | Code Along |
-| [AAB Account Balance Report](TODO) | TODO | Solo Project |
-| []
+| [The Internet and You!](<!-- <!-- TODO --> -->) | <!-- TODO --> | Lecture |
+| [GETing Data](<!-- TODO -->) | <!-- TODO --> | Code Along |
+| [AAB Account Balance Report](<!-- TODO -->) | <!-- TODO --> | Solo Project |
+| [The other Actions (POST, PUT, PATCH)](<!-- TODO -->) | <!-- TODO --> | Code Along |
+| [URL Segments and Query Parameters](<!-- TODO -->) ]
 
 ## Resources

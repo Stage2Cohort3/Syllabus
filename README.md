@@ -17,7 +17,7 @@ A 6-month Course in .NET Core, OOP, and Backend Software Development
 
 ## Assignments and Projects
 
-All assignments will be done through GitHub. 
+All assignments will be done through GitHub.
 
 ### GitHub Flow for Single Assignments
 
@@ -39,4 +39,3 @@ All assignments will be done through GitHub.
 Longer group projects will be hosted in an organization GitHub repo. The teacher will create the empty repo and ensure all group members have appropriate access to it.
 
 Students will use branching to add features. Teachers and Students will add Issues that need to be addressed, and referenced by number in commit messages.
-

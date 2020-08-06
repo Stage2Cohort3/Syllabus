@@ -14,6 +14,7 @@ The purpose of Unit Two is to familiarize students with Basic OOP principals.
 - Visual Studio
 
 ### Concepts
+
 - Classes, objects, primitives, properties, methods
 - Inheritance, Polymorphism, abstract classes, interfaces
 - Encapsulation, Data Abstraction
@@ -22,17 +23,16 @@ The purpose of Unit Two is to familiarize students with Basic OOP principals.
 
 | Name | Associated Repo | Type |
 |------|-----------------|------|
-| [Intro to classes and objects](TODO) |  | Code Along |
-| [Solo Project?]() |  | Solo Project |
-| [Intro to Inheritance and Polymorphism(Pet Store)]() |  | Code Along
-| [UML Exercise]() |  | Solo Project |
-| [Car Factory or Upgraded DnD Character Generator](TODO) |  | Solo Project |
-| [Intro to Encapsulation and Abstraction](TODO) |  | Code Along
-| [Rick's Guitar App](TODO) | | Solo Project |
-| [Upgraded Banking App](TODO) |  | Group Project |
-
+| [Intro to classes and objects](<!-- TODO -->) |  | Code Along |
+| [Solo Project?](<!-- TODO -->) |  | Solo Project |
+| [Intro to Inheritance and Polymorphism(Pet Store)](<!-- TODO -->) |  | Code Along
+| [UML Exercise](<!-- TODO -->) |  | Solo Project |
+| [Car Factory or Upgraded DnD Character Generator](<!-- TODO -->) |  | Solo Project |
+| [Intro to Encapsulation and Abstraction](<!-- TODO -->) |  | Code Along
+| [Rick's Guitar App](<!-- TODO -->) | | Solo Project |
+| [Upgraded Banking App](<!-- TODO -->) |  | Group Project |
 
 ## References
-- https://beginnersbook.com/2013/03/oops-in-java-encapsulation-inheritance-polymorphism-abstraction/
+
+- <https://beginnersbook.com/2013/03/oops-in-java-encapsulation-inheritance-polymorphism-abstraction/>
 - Head First Object-Oriented Analysis & Design ([O'Reilly Books](https://www.oreilly.com/library/view/head-first-object-oriented/0596008678/))
-- 

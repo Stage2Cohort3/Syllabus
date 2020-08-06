@@ -1,7 +1,7 @@
 # `hello world`
 
 - Type: Code Along 
-- Associated Repo: **TODO**
+- Associated Repo: **<!-- TODO -->**
 
 ## Prerequisites 
 
