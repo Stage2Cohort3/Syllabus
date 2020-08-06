@@ -32,7 +32,7 @@
 1. Add the Visual Studio `.gitignore`
     - Explain that a gitignore file tells git what files to ignore when committing them. This is useful for keeping build files, binary files, and secrets out of GitHub.
     - You will likely need to show how to show hidden files and folders to see the .gitignore (Start -> "Show Hidden Files and Folders" -> Select `Show hidden files, folders, and drives` and un-check `Hide extensions for known file times`)
-    - https://raw.githubusercontent.com/github/gitignore/master/VisualStudio.gitignore
+    - <https://raw.githubusercontent.com/github/gitignore/master/VisualStudio.gitignore>
 1. Commit the code to your local git repo using GitKraken
 1. Push the code up to GitHub, and double check that it made it!
 1. Add the following features:
