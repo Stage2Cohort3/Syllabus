@@ -26,7 +26,8 @@ The purpose of Unit Three is to familiarize students with the tools and interfac
 | [GETing Data](<!-- TODO -->) | <!-- TODO --> | Code Along |
 | [AAB Account Balance Report](<!-- TODO -->) | <!-- TODO --> | Solo Project |
 | [The other Actions (POST, PUT, PATCH)](<!-- TODO -->) | <!-- TODO --> | Code Along |
-| [Account Maker App](<!-- TODO -->) |  | Solo Project
-| [URL Segments and Query Parameters](<!-- TODO -->) |  | 
+| [Account Maker App](<!-- TODO -->) |  | Solo Project |
+| [URL Segments and Query Parameters](<!-- TODO -->) |  | Code Along |
+| [MailCat Email Console Viewer](<!-- TODO -->) |  | Group Project |
 
 ## Resources

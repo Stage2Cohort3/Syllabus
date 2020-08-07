@@ -1,8 +1,8 @@
-# Unit 1 - `Hello World`
+# Unit 4 - Building REST Interfaces
 
 ## Purpose of Unit
 
-The purpose of Unit One is to familiarize students with the tools and development environment they will be using throughout this course.
+The purpose of Unit Four is to familiarize students with building REST interfaces using ASP.NET MVC/WebAPI
 
 ## Topics Covered
 
@@ -17,7 +17,13 @@ The purpose of Unit One is to familiarize students with the tools and developmen
 
 | Name | Associated Repo | Type |
 |------|-----------------|------|
-| [gitTodo](./git_<!-- TODO -->.md) | https://github.com/Stage2Cohort3/git_<!-- TODO --> | Code Along |
-| [`hello world`](./csharp_hello_world.md) | | Code Along |
-| [C# Character Generator](./csharp_character_generator.md) | | Code Along |
-| [Banking App](./banking_app.md) | | Solo Project |
+| [Getting Started with ASP.NET](<!-- TODO -->) | <!-- TODO --> | Code Along |
+| [Mock-e-dex](<!-- TODO -->) |  | Solo Project |
+| [Adding Query Parameters](<!-- TODO -->) |  | Code Along |
+| [Searchable Mock-e-dex](<!-- TODO -->) |  | Solo Project |
+| [Hosting with IIS](<!-- TODO -->) |  | Code Along |
+| [Account Scores Service](<!-- TODO -->) |  | Group Project |
+
+### Account Scores Service idea
+
+Service that generates an account score for an account. Score is based on some factors on the account (+100 for being active this month, +2 for every $100 in CREDIT transactions, -1 for ever $100 in DEBIT transactions, etc) plus some details given to this service (-1 every time a score is retrieved, -5 for every $100 of reported fines, +6 for Galactic Influence?)
