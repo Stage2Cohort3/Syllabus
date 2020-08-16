@@ -1,23 +1,20 @@
-# Unit 1 - `Hello World`
+# Unit 6 - Intermediate OOP
 
 ## Purpose of Unit
 
-The purpose of Unit One is to familiarize students with the tools and development environment they will be using throughout this course.
+The purpose of Unit Six is to familiarize student with various Design Patterns in OOP, and how to utilize them with TDD.
 
 ## Topics Covered
-
-### Tools
-
-- git
-- GitHub
-- Visual Studio
-- GitKraken
 
 ## Lessons
 
 | Name | Associated Repo | Type |
 |------|-----------------|------|
-| [gitTodo](./git_<!-- TODO -->.md) | https://github.com/Stage2Cohort3/git_<!-- TODO --> | Code Along |
-| [`hello world`](./csharp_hello_world.md) | | Code Along |
-| [C# Character Generator](./csharp_character_generator.md) | | Code Along |
-| [Banking App](./banking_app.md) | | Solo Project |
+| [The Factory](<!-- TODO -->) | <!-- TODO --> | Code Along |
+| [The Car Factory Factory](<!-- TODO -->) | <!-- TODO --> | Solo Project |
+| [The Singleton](<!-- TODO -->) | <!-- TODO --> | Code Along |
+| [Intro to TDD](<!-- TODO -->) | <!-- TODO --> | Code Along |
+| [Bowling Kata](<!-- TODO -->) | <!-- TODO --> | Pairs (with mentors) |
+| [.NET Core and Dependency Injection](<!-- TODO -->) | <!-- TODO --> | Code Along |
+| [Testing Account Score App](<!-- TODO -->) | <!-- TODO --> | Pairs |
+

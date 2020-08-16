@@ -20,6 +20,7 @@ The purpose of Unit One is to familiarize students with SQL, relational database
 | [School ERD Exercise](<!-- TODO -->) | <!-- TODO --> | Group Project |
 | [Mystery in SQL City](<!-- TODO -->) | <!-- TODO --> | Solo Project |
 | [Provisioning a SQL Server on Azure](<!-- TODO -->) | <!-- TODO --> | Code Along |
+| [DAO's in C#](<!-- TODO -->) | <!-- TODO --> | Code Along |
 | [Mock-e-dex with persistance](<!-- TODO -->) | <!-- TODO --> | Solo Project
 
 ### Mystery in SQL City
