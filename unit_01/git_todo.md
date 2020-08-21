@@ -1,7 +1,7 @@
 # gitTodo
 
 - Type: Code Along
-- Associated Repo: <https://github.com/Stage2Cohort3/todo>
+- Associated Repo: <https://github.com/Stage2Cohort3/git_todo>
 
 ## Prerequisites
 
@@ -26,13 +26,19 @@ Walk the Students through the following:
 
 1. Fork the repo into their own GitHub account
 1. Make a `README.md` file in GitHub
-    - `README.md` needs at least three <!-- TODO --> items with a checklist
+    - `README.md` needs at least three ToDo items with a checklist
 1. Commit the file to their master repo
 1. Pull Request back into the main repo
 
-Once pull requests start showing up, teachers should start adding comments and requesting changes to the <!-- TODO --> list through the pull request. Students should respond to the comments and make agreed upon changes in their master branch. The pull request will automatically show the changes made in their master branch.
+Once pull requests start showing up, teachers should start adding comments and requesting changes to the ToDo list through the pull request. Students should respond to the comments and make agreed upon changes in their master branch. The pull request will automatically show the changes made in their master branch.
 
 After some back and forth in the pull requests, teachers should close the pull request.
+
+### git Customization
+
+Use "main" as the default initial branch name.
+
+> `git config --global init.defaultBranch main`
 
 ### README through git with GitKraken
 

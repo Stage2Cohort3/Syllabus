@@ -17,7 +17,7 @@ The company provides a special feature that other banks don't provide. Every acc
 | FA | Financial Advisor |
 | AH | Account Holder |
 | GCS | Galactic Currency Standard |
-| WC | Contdrisk |
+| BLC | BluCoin |
 
 #### Base Requirements
 
@@ -29,7 +29,7 @@ We need a system that tracks and assigns Financial Advisors with the following r
 1. FAs are emailed when an existing AH they are assigned to creates a new account
 1. AHs are emailed when they have been assigned a new FA
 1. Account assignments are evenly distributed among available FAs
-    - Try to keep FAs to a maximum of 100 accounts, but if all FAs are at max capacity, we will have to assign them more than 100
+    - Try to keep FAs to a maximum of 100 accounts, but if all FAs are at max capacity, we will have to assign them more than 100 accounts
     - If new FAs become available, reassign accounts to new FAs to reduce the workload of overburdened FAs
     - If an existing FA becomes inactive, reassign all of their accounts to new FAs
     - Any reassignments should have all emails re-sent with current details
@@ -41,7 +41,7 @@ We need a system that tracks and assigns Financial Advisors with the following r
     - Account total CREDIT transactions changes by 10% from previous 6-month average
     - Account transaction contains a `FRAUDULENT` keyword (to be defined)
 1. Accounts receive a one-time CREDIT at 6-months of continuous positive balance
-1. FAs are designated as either GCS or CDK Advisors, and are only assigned accounts with those currencies
+1. FAs are designated as either GCS or BLC Advisors, and are only assigned accounts with those currencies
     - What happens if an existing AH creates a new account in a different currency?
 
 ### Recommended Architecture

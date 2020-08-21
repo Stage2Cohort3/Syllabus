@@ -17,4 +17,3 @@ The purpose of Unit Six is to familiarize student with various Design Patterns i
 | [Bowling Kata](<!-- TODO -->) | <!-- TODO --> | Pairs (with mentors) |
 | [.NET Core and Dependency Injection](<!-- TODO -->) | <!-- TODO --> | Code Along |
 | [Testing Account Score App](<!-- TODO -->) | <!-- TODO --> | Pairs |
-

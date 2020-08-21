@@ -1,9 +1,9 @@
 # `hello world`
 
-- Type: Code Along 
-- Associated Repo: **<!-- TODO -->**
+- Type: Code Along
+- Associated Repo: <https://github.com/Stage2Cohort3/csharp_hello_world>
 
-## Prerequisites 
+## Prerequisites
 
 - Personal GitHub Account
 - GitKraken Free Edition installed
@@ -35,7 +35,7 @@
     - <https://raw.githubusercontent.com/github/gitignore/master/VisualStudio.gitignore>
 1. Commit the code to your local git repo using GitKraken
 1. Push the code up to GitHub, and double check that it made it!
-1. Add the following features:
+1. Add the following additional features:
     - Ask for the user's name, and say hello to them
     - Display a menu with various greetings, and let the user pick their greeting of choice (if statements to decide which greeting to give)
-(greeter app?)
+    - If the user's name is in all caps, give the greeting in all caps
