@@ -13,5 +13,9 @@
         "rebalancing",
         "struct"
     ],
-    "liveServer.settings.root": "/docs"
+    // "liveServer.settings.root": "/docs",
+    "liveServer.settings.mount": [
+        ["./docs", "/Syllabus/"],
+        // ["/Syllabus", "/docs"]
+    ]
 }
