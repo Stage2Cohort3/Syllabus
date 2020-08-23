@@ -20,7 +20,17 @@ Get-ChildItem -Recurse -Include *.md | Where-Object { $_.FullName -inotmatch "no
     If ($filename -ieq "readme") {
         $filename = "index"
     }
-    pandoc --ascii -s -c /Syllabus/libs/css/default.css -o ./docs$dir/$($filename).html $_.FullName
+    pandoc --ascii -s -c /Syllabus/libs/css/default.css -F mermaid-filter.cmd -o ./docs$dir/$($filename).html $_.FullName
+}
+
+# Find reveal markdown files
+Get-ChildItem -Recurse -Include *.revealmd | Where-Object { $_.FullName -inotmatch "node_modules" } | ForEach-Object -Process {
+    $dir = $_.DirectoryName.Replace($workingDir, "")
+    If (!(test-path ./Docs$dir/)) {
+        New-Item -ItemType Directory -Force -Path ./docs$dir/
+    }
+    $filename = $_.BaseName
+    pandoc --ascii -s -t revealjs -o ./docs$dir/$($filename).html $_.FullName -V revealjs-url=https://unpkg.com/reveal.js@4.0.2/
 }
 
 # Replace all .md links to .html links
@@ -30,7 +40,7 @@ Get-ChildItem -Recurse -Path ./docs -Include *.html | ForEach-Object -Process {
             $_ -replace "<a href=`"([^`"]*)README\.", "<a href=`"`$1index."
         } | 
         ForEach-Object {
-            $_ -replace "<a href=`"([^`"]*)\.md", "<a href=`"`$1.html" 
+            $_ -replace "<a href=`"([^`"]*)\.(?:reveal)?md", "<a href=`"`$1.html" 
         } | 
         Out-File $_.FullName
         

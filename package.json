@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/Stage2Cohort3/Syllabus#readme",
   "dependencies": {
-    "live-server": "^1.2.1"
+    "live-server": "^1.2.1",
+    "mermaid-filter": "^1.4.4"
   }
 }

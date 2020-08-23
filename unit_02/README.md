@@ -32,6 +32,10 @@ The purpose of Unit Two is to familiarize students with Basic OOP principals.
 | [Rick's Guitar App](<!-- TODO -->) | | Solo Project |
 | [Upgraded Banking App](<!-- TODO -->) |  | Group Project |
 
+## Slides
+
+[Test Slide](./testslide.revealmd)
+
 ## References
 
 - <https://beginnersbook.com/2013/03/oops-in-java-encapsulation-inheritance-polymorphism-abstraction/>
