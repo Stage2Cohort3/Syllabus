@@ -12,5 +12,6 @@
         "rebalance",
         "rebalancing",
         "struct"
-    ]
+    ],
+    "liveServer.settings.root": "/docs"
 }
