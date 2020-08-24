@@ -3,3 +3,4 @@
   allowed_elements: 
     - "br"
 "MD013": false # https://github.com/DavidAnson/markdownlint/blob/v0.20.4/doc/Rules.md#md013---line-length
+"MD025": false

@@ -1,4 +1,4 @@
-# `hello world`
+# `C# Character Generator`
 
 - Type: Code Along
 - Associated Repo: <https://github.com/Stage2Cohort3/csharp_character_generator>
@@ -17,4 +17,3 @@
     - Also try backing up into Psuedocode, then how they would do that in C, then how that is done in C#
     - Avoid OO solutions (students with experience in OO will try to use objects(because it's a perfect match for what we're doing!))
     - Show `class`es, but use them like a struct (properties only, no methods)
-    - 
