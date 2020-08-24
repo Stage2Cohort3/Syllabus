@@ -17,5 +17,8 @@
     "liveServer.settings.mount": [
         ["./docs", "/Syllabus/"],
         // ["/Syllabus", "/docs"]
-    ]
+    ],
+    "files.associations": {
+        "*.revealmd": "markdown"
+    }
 }

@@ -1,0 +1,30 @@
+---
+author: John Doe
+title: Not Demo Slide
+date: June 21, 2017
+separator: <!--s-->
+verticalSeparator: <!--v-->
+---
+
+# Foo
+
+```python
+print("hello world")
+```
+
+<!--s-->
+
+# Bar
+
+* test
+* test
+
+<!--v-->
+
+# I'm Under Here
+
+<div class="mermaid">
+sequenceDiagram
+    Alice->>John: Hello John, how are you?
+    John-->>Alice: Great!
+</div>

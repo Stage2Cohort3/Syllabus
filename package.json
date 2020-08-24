@@ -7,8 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "live-server --mount=/Syllabus:./docs --open=/Syllabus/",
+    "test": "reveal-md ./src --static ./docs/temp --glob '**/*.revealmd'",
+    "serve": "live-server --mount=/Syllabus:./docs --open=/Syllabus/ --watch=",
     "build": "@powershell ./build.ps1"
   },
   "repository": {
@@ -23,6 +23,7 @@
   "homepage": "https://github.com/Stage2Cohort3/Syllabus#readme",
   "dependencies": {
     "live-server": "^1.2.1",
-    "mermaid-filter": "^1.4.4"
+    "mermaid-filter": "^1.4.4",
+    "reveal-md": "^4.1.3"
   }
 }

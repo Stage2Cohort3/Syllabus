@@ -9,8 +9,8 @@ Get-ChildItem -Recurse -Directory -Path ./docs | Where-Object { $_.FullName -ino
 $workingDir = Get-Location
 
 # Find all markdown files
-Get-ChildItem -Recurse -Include *.md | Where-Object { $_.FullName -inotmatch "node_modules" } | ForEach-Object -Process {
-    $dir = $_.DirectoryName.Replace($workingDir, "")
+Get-ChildItem -Recurse -Include *.md -Path ./src | Where-Object { $_.FullName -inotmatch "node_modules" } | ForEach-Object -Process {
+    $dir = $_.DirectoryName.Replace($workingDir, "").Replace('\src', "")
     If (!(test-path ./Docs$dir/)) {
         New-Item -ItemType Directory -Force -Path ./docs$dir/
     }
@@ -24,14 +24,32 @@ Get-ChildItem -Recurse -Include *.md | Where-Object { $_.FullName -inotmatch "no
 }
 
 # Find reveal markdown files
-Get-ChildItem -Recurse -Include *.revealmd | Where-Object { $_.FullName -inotmatch "node_modules" } | ForEach-Object -Process {
-    $dir = $_.DirectoryName.Replace($workingDir, "")
-    If (!(test-path ./Docs$dir/)) {
-        New-Item -ItemType Directory -Force -Path ./docs$dir/
-    }
-    $filename = $_.BaseName
-    pandoc --ascii -s -t revealjs -o ./docs$dir/$($filename).html $_.FullName -V revealjs-url=https://unpkg.com/reveal.js@4.0.2/
+# Get-ChildItem -Recurse -Include *.revealmd | Where-Object { $_.FullName -inotmatch "node_modules" } | ForEach-Object -Process {
+#     $dir = $_.DirectoryName.Replace($workingDir, "")
+#     If (!(test-path ./Docs$dir/)) {
+#         New-Item -ItemType Directory -Force -Path ./docs$dir/
+#     }
+#     $filename = $_.BaseName
+#     # pandoc --ascii -s -f markdown -t revealjs -o ./docs$dir/$($filename).html $_.FullName -V revealjs-url=https://unpkg.com/reveal.js@4.0.2/
+#     # pandoc --ascii -s -f markdown -t revealjs -o ./docs$dir/$($filename).html $_.FullName -V revealjs-url=https://unpkg.com/browse/reveal-md@4.1.3/
+#     # reveal-md $_.FullName --static ./docs$dir/$filename
+# }
+reveal-md ./src --static ./docs/temp --template ./templates/reveal-template.html --glob '**/*.revealmd' 
+Get-ChildItem -Recurse -Path ./docs/temp | Where-Object {
+    $_.FullName -inotmatch "css" -and $_.FullName -inotmatch "dist" -and $_.FullName -inotmatch "plugin"
+} |
+ForEach-Object {
+    (Get-Content -Path $_.FullName) | ForEach-Object {
+        $_ -replace "\.\\\.\.", "\Syllabus\libs\js\reveal"
+    } |
+    Out-File $_.FullName
+
+    $destination = "./docs/" + ($_.FullName -replace "^.*\\([^\\]+\\[^\\]+)$", '$1')
+    $destination = $destination.Replace(".revealmd", ".html")
+    Move-Item -Path $_.FullName -Destination $destination
 }
+
+Remove-Item -Path ./docs/temp -Recurse -Force
 
 # Replace all .md links to .html links
 Get-ChildItem -Recurse -Path ./docs -Include *.html | ForEach-Object -Process {
@@ -43,5 +61,4 @@ Get-ChildItem -Recurse -Path ./docs -Include *.html | ForEach-Object -Process {
             $_ -replace "<a href=`"([^`"]*)\.(?:reveal)?md", "<a href=`"`$1.html" 
         } | 
         Out-File $_.FullName
-        
 }
