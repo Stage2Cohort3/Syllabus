@@ -23,7 +23,7 @@ The purpose of Unit Two is to familiarize students with Basic OOP principals.
 
 | Name | Associated Repo | Type |
 |------|-----------------|------|
-| [Intro to classes and objects](<!-- TODO -->) |  | Code Along |
+| [Intro to classes and objects](./intro_to_classes_and_objects.md) |  | Code Along |
 | [Microlite Character System](<!-- TODO -->) |  | Solo Project |
 | [Intro to Inheritance and Polymorphism(Pet Store)](<!-- TODO -->) |  | Code Along
 | [UML Exercise](<!-- TODO -->) |  | Solo Project |
@@ -41,3 +41,5 @@ The purpose of Unit Two is to familiarize students with Basic OOP principals.
 - <https://beginnersbook.com/2013/03/oops-in-java-encapsulation-inheritance-polymorphism-abstraction/>
 - Head First Object-Oriented Analysis & Design ([O'Reilly Books](https://www.oreilly.com/library/view/head-first-object-oriented/0596008678/))
 - <https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/object-oriented-programming>
+- <https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260/>
+- <https://www.c-sharpcorner.com/UploadFile/mkagrahari/introduction-to-object-oriented-programming-concepts-in-C-Sharp/>

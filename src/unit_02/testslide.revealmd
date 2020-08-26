@@ -4,6 +4,9 @@ title: Not Demo Slide
 date: June 21, 2017
 separator: <!--s-->
 verticalSeparator: <!--v-->
+theme: night
+revealOptions:
+    transition: slide
 ---
 
 # Foo
@@ -24,6 +27,7 @@ print("hello world")
 # I'm Under Here
 
 <div class="mermaid">
+%%{init: {'theme':'forest'}}%%
 sequenceDiagram
     Alice->>John: Hello John, how are you?
     John-->>Alice: Great!

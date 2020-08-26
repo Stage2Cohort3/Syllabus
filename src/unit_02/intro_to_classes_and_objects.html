@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>reveal.js – The HTML Presentation Framework</title>
+
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Hakim El Hattab">
+    <!-- 
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> -->
+
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+
+    <link rel="stylesheet" href="https://unpkg.com/reveal.js@4.0.2/dist/reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/reveal.js@4.0.2/dist/reveal.css">
+    <link rel="stylesheet" href="https://unpkg.com/reveal.js@4.0.2/dist/theme/night.css" id="theme">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="https://unpkg.com/reveal.js@4.0.2/plugin/highlight/monokai.css" id="highlight-theme">
+
+    <style>
+        .row {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .flex-1 {
+            flex: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h1>Intro to Classes and Objects</h1>
+            </section>
+            <section data-auto-animate>
+                <h3 data-id="code-title">C# is an Object-Oriented Programming Language</h3>
+            </section>
+            <section data-auto-animate>
+                <h3 data-id="code-title r-stretch">C# is an Object-Oriented Programming Language</h3>
+                <hr>
+                <p>
+                    Object-Oriented Programming is a model where programs are organized around objects and data
+                </p>
+                <div class="mermaid">
+                    flowchart TB
+                    subgraph idg1 [object]
+                    idd1[data fa:fa-database]-->idd4[data fa:fa-server]
+                    end
+                    subgraph idg2 [object]
+                    idd2[data fa:fa-digital-tachograph]-->idd3[data fa:fa-info-circle]
+                    idd2-->idd4
+                    end
+                </div>
+            </section>
+            <section data-auto-animate>
+                <h3>Software is divided into small units called objects</h3>
+                <p>Data and Functions are built around these objects</p>
+
+                <div class="mermaid">
+                    flowchart TB
+                    subgraph idg1 [object]
+                    idd4[function fa:fa-briefcase]
+                    idd1[data fa:fa-database]
+                    end
+                    subgraph idg2 [object]
+                    idd2[function fa:fa-briefcase]
+                    idd3[data fa:fa-database]
+                    end
+                </div>
+
+            </section>
+            <section data-auto-animate>
+                <h3>The data of the objects can only be accessed by the functions in the same object</h3>
+
+                <div class="mermaid">
+                    flowchart TB
+                    subgraph idg1 [object]
+                    idd4[function fa:fa-briefcase] --> idd1[data fa:fa-database]
+                    end
+                    subgraph idg2 [object]
+                    idd2[function fa:fa-briefcase]--> idd3[data fa:fa-database]
+                    end
+                    idd2 -.-x idd1
+                </div>
+
+            </section>
+            <section>
+                <h3>Functions of one object can access functions of another object</h3>
+                <div class="mermaid">
+                    flowchart TB
+                    subgraph idg1 [object]
+                    idd4[function fa:fa-briefcase] --> idd1[data fa:fa-database]
+                    end
+                    subgraph idg2 [object]
+                    idd2[function fa:fa-briefcase]--> idd3[data fa:fa-database]
+                    end
+                    idd2 --> idd4
+                </div>
+
+            </section>
+            <section>
+                <h3>Classes</h3>
+
+                <p>
+                    Classes are the core of OOP
+                </p>
+            </section>
+            <section>
+                <h3>A Class is a Blueprint</h3>
+
+                <ul>
+                    <li>It contains the variables for storing data</li>
+                    <li>It contains the functions to perform operations on that data</li>
+                </ul>
+            </section>
+            <section data-auto-animate>
+                <h3>An Example of a class</h3>
+
+                <pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers>
+using System;
+
+namespace E360Service.DataContracts
+{
+    public class Borrower
+    {
+        public string FirstName { get; set; }
+        public string MiddleName { get; set; }
+        public string LastName { get; set; }
+        public string HomePhone { get; set; }
+        public string WorkPhone { get; set; }
+        public string CellPhone { get; set; }
+        public string HomeEmail { get; set; }
+        public string WorkEmail { get; set; }
+    }
+}
+                </code></pre>
+            </section>
+            <section data-auto-animate>
+                <h3>An Example of a class</h3>
+
+                <pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers="5|3|7-14">
+using System;
+
+namespace E360Service.DataContracts
+{
+    public class Borrower
+    {
+        public string FirstName { get; set; }
+        public string MiddleName { get; set; }
+        public string LastName { get; set; }
+        public string HomePhone { get; set; }
+        public string WorkPhone { get; set; }
+        public string CellPhone { get; set; }
+        public string HomeEmail { get; set; }
+        public string WorkEmail { get; set; }
+    }
+}
+                </code></pre>
+            </section>
+            <section data-auto-animate>
+                <h3>Let's Add Some Functions</h3>
+
+                <pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers="16-19|21-34">
+using System;
+
+namespace E360Service.DataContracts
+{
+    public class Borrower
+    {
+        public string FirstName { get; set; }
+        public string MiddleName { get; set; }
+        public string LastName { get; set; }
+        public string HomePhone { get; set; }
+        public string WorkPhone { get; set; }
+        public string CellPhone { get; set; }
+        public string HomeEmail { get; set; }
+        public string WorkEmail { get; set; }
+
+        public string GetFullName()
+        {
+            return FirstName + " " + LastName;
+        }
+
+        public string GetAPhoneNumber()
+        {
+            if(CellPhone != "")
+            {
+                return CellPhone;
+            }
+            else if(HomePhone != "")
+            {
+                return HomePhone;
+            }
+            else {
+                return WorkPhone;
+            }
+        }
+    }
+}
+                </code></pre>
+            </section>
+            <section>
+                <h3>Classes are NOT objects!</h3>
+
+                <p class="fragment">
+                    Classes are just a <span style="color: mediumturquoise;">blueprint</span> for making objects.
+                </p>
+                <p class="fragment">
+                    To make an object, just new it up!
+                </p>
+            </section>
+
+            <section>
+                <h3>Making a New Object</h3>
+
+                <pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers="|9">
+using System;
+
+namespace MyApplication
+{
+    public class Program
+    {
+        public void Main()
+        {
+            var myBorrower = new Borrower();
+        }
+    }
+}
+                </code></pre>
+            </section>
+            <section>
+                <h3>Let's Simplify</h3>
+            </section>
+            <section data-auto-animate>
+                <h2 data-id="code-title">Pretty Code</h2>
+                <pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers>
+                    import React, { useState } from 'react';
+
+                    function Example() {
+                      const [count, setCount] = useState(0);
+
+                      return (
+                        ...
+                      );
+                    }
+                </code></pre>
+                <p>Code syntax highlighting courtesy of <a href="https://highlightjs.org/usage/">highlight.js</a>.</p>
+            </section>
+
+        </div>
+
+    </div>
+
+    <script src="https://unpkg.com/reveal.js@4.0.2/dist/reveal.js"></script>
+    <script src="https://unpkg.com/reveal.js@4.0.2/plugin/zoom/zoom.js"></script>
+    <script src="https://unpkg.com/reveal.js@4.0.2/plugin/notes/notes.js"></script>
+    <script src="https://unpkg.com/reveal.js@4.0.2/plugin/search/search.js"></script>
+    <script src="https://unpkg.com/reveal.js@4.0.2/plugin/markdown/markdown.js"></script>
+    <script src="https://unpkg.com/reveal.js@4.0.2/plugin/highlight/highlight.js"></script>
+    <script>
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+            transition: 'slide', // default/none/fade/slide/convex/concave/zoom
+            plugins: [RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight]
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            theme: "dark",
+            startOnLoad: true,
+            securityLevel: "loose"
+        });
+    </script>
+    <script src="https://kit.fontawesome.com/f4ba660226.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
