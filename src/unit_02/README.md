@@ -12,6 +12,7 @@ The purpose of Unit Two is to familiarize students with Basic OOP principals.
 - GitHub
 - GitKraken
 - Visual Studio
+- draw.io Desktop
 
 ### Concepts
 
@@ -23,12 +24,10 @@ The purpose of Unit Two is to familiarize students with Basic OOP principals.
 
 | Name | Associated Repo | Type |
 |------|-----------------|------|
-| [Intro to classes and objects](./intro_to_classes_and_objects.md) |  | Code Along |
-| [Microlite Character System](<!-- TODO -->) |  | Solo Project |
-| [Intro to Inheritance and Polymorphism(Pet Store)](<!-- TODO -->) |  | Code Along
-| [UML Exercise](<!-- TODO -->) |  | Solo Project |
+| [Intro to classes and objects](./intro_to_classes_and_objects.md) |  | Lecture |
+| [Object Oriented Shapes](./object_oriented_shapes.md) |  | Code Along |
+| [Pet Store](<!-- TODO -->) |  | Solo Project |
 | [Car Factory](<!-- TODO -->) |  | Solo Project |
-| [Intro to Encapsulation and Abstraction](<!-- TODO -->) |  | Code Along
 | [Rick's Guitar App](<!-- TODO -->) | | Solo Project |
 | [Upgraded Banking App](<!-- TODO -->) |  | Group Project |
 

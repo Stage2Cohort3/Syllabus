@@ -1,13 +1,13 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
 
-    <title>reveal.js – The HTML Presentation Framework</title>
+    <title>Intro to Classes and Objects</title>
 
-    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-    <meta name="author" content="Hakim El Hattab">
+    <!-- <meta name="description" content="A framework for easily creating beautiful presentations using HTML"> -->
+    <meta name="author" content="Pearse Hutson">
     <!-- 
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> -->
@@ -130,14 +130,14 @@ namespace E360Service.DataContracts
 {
     public class Borrower
     {
-        public string FirstName { get; set; }
-        public string MiddleName { get; set; }
-        public string LastName { get; set; }
-        public string HomePhone { get; set; }
-        public string WorkPhone { get; set; }
-        public string CellPhone { get; set; }
-        public string HomeEmail { get; set; }
-        public string WorkEmail { get; set; }
+        public string FirstName;
+        public string MiddleName;
+        public string LastName;
+        public string HomePhone;
+        public string WorkPhone;
+        public string CellPhone;
+        public string HomeEmail;
+        public string WorkEmail;
     }
 }
                 </code></pre>
@@ -152,14 +152,14 @@ namespace E360Service.DataContracts
 {
     public class Borrower
     {
-        public string FirstName { get; set; }
-        public string MiddleName { get; set; }
-        public string LastName { get; set; }
-        public string HomePhone { get; set; }
-        public string WorkPhone { get; set; }
-        public string CellPhone { get; set; }
-        public string HomeEmail { get; set; }
-        public string WorkEmail { get; set; }
+        public string FirstName;
+        public string MiddleName;
+        public string LastName;
+        public string HomePhone;
+        public string WorkPhone;
+        public string CellPhone;
+        public string HomeEmail;
+        public string WorkEmail;
     }
 }
                 </code></pre>
@@ -174,14 +174,14 @@ namespace E360Service.DataContracts
 {
     public class Borrower
     {
-        public string FirstName { get; set; }
-        public string MiddleName { get; set; }
-        public string LastName { get; set; }
-        public string HomePhone { get; set; }
-        public string WorkPhone { get; set; }
-        public string CellPhone { get; set; }
-        public string HomeEmail { get; set; }
-        public string WorkEmail { get; set; }
+        public string FirstName;
+        public string MiddleName;
+        public string LastName;
+        public string HomePhone;
+        public string WorkPhone;
+        public string CellPhone;
+        public string HomeEmail;
+        public string WorkEmail;
 
         public string GetFullName()
         {
@@ -220,7 +220,7 @@ namespace E360Service.DataContracts
             <section>
                 <h3>Making a New Object</h3>
 
-                <pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers="|9">
+                <pre data-id="code-animation"><code class="hljs csharp" data-trim data-line-numbers="|9">
 using System;
 
 namespace MyApplication
@@ -235,23 +235,194 @@ namespace MyApplication
 }
                 </code></pre>
             </section>
-            <section>
-                <h3>Let's Simplify</h3>
+<!--************************Constructing a Car************************-->
+            <section data-auto-animate>
+                <h3>Constructing a Car</h3>
+
+                <pre data-id="code-animation"><code class="hljs csharp" data-trim data-line-numbers="">
+public class Car
+{
+    private int ManufacturedDate;
+    private string Make;
+    private string Model;
+}
+                </code></pre>
+                <p class="fragment">We have a car, with some data points.</p>
+                <p class="fragment">We can construct a new car with the <code class="hljs-keyword">new</code> keyword!</p>
             </section>
             <section data-auto-animate>
-                <h2 data-id="code-title">Pretty Code</h2>
-                <pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers>
-                    import React, { useState } from 'react';
+                <h3>Constructing a Car</h3>
 
-                    function Example() {
-                      const [count, setCount] = useState(0);
+                <pre data-id="code-animation"><code class="hljs csharp" data-trim data-line-numbers="">
+public class Car
+{
+    private int ManufacturedDate;
+    private string Make;
+    private string Model;
+}
 
-                      return (
-                        ...
-                      );
-                    }
+public void Main()
+{
+    var myCar = new Car();
+}
                 </code></pre>
-                <p>Code syntax highlighting courtesy of <a href="https://highlightjs.org/usage/">highlight.js</a>.</p>
+                <p class="fragment">Now that I have <code class="">myCar</code>, I want it to have the data as my actual car!</p>
+                <p class="fragment">To do that, I need to give <code class="hljs-type">Car</code> a constructor</p>
+            </section>
+            <section data-auto-animate>
+                <h3>Constructing a Car</h3>
+
+                <pre data-id="code-animation"><code class="hljs csharp" data-trim data-line-numbers="3-6">
+public class Car
+{
+    public Car()
+    {
+
+    }
+    private int ManufacturedDate;
+    private string Make;
+    private string Model;
+}
+
+public void Main()
+{
+    var myCar = new Car();
+}
+                </code></pre>
+                <p class="fragment">Now that I have <code class="">myCar</code>, I want it to have the data as my actual car!</p>
+            </section>
+            <section data-auto-animate>
+                <h3>Constructing a Car</h3>
+
+                <pre data-id="code-animation"><code class="hljs csharp" data-trim data-line-numbers="3-6">
+public class Car
+{
+    public Car(string make, string model, int manufacturedDate)
+    {
+
+    }
+    private int ManufacturedDate;
+    private string Make;
+    private string Model;
+}
+
+public void Main()
+{
+    var myCar = new Car();
+}
+                </code></pre>
+                <p>I can pass the data I want in the parameters of my constructor</p>
+            </section>
+            <section data-auto-animate>
+                <h3>Constructing a Car</h3>
+
+                <pre data-id="code-animation"><code class="hljs csharp" data-trim data-line-numbers="3-8">
+public class Car
+{
+    public Car(string make, string model, int manufacturedDate)
+    {
+        Make = make;
+        Model = model;
+        ManufacturedDate = manufacturedDate; 
+    }
+    private int ManufacturedDate;
+    private string Make;
+    private string Model;
+}
+
+public void Main()
+{
+    var myCar = new Car();
+}
+                </code></pre>
+                <p>And set the data of the car with those parameters</p>
+            </section>
+            <section data-auto-animate>
+                <h3>Constructing a Car</h3>
+
+                <pre data-id="code-animation"><code class="hljs csharp" data-trim data-line-numbers="16">
+public class Car
+{
+    public Car(string make, string model, int manufacturedDate)
+    {
+        Make = make;
+        Model = model;
+        ManufacturedDate = manufacturedDate; 
+    }
+    private int ManufacturedDate;
+    private string Make;
+    private string Model;
+}
+
+public void Main()
+{
+    var myCar = new Car(2014, "Dodge", "Dart");
+}
+                </code></pre>
+                <p>Let's update <code>myCar</code> with my car's data.</p>
+            </section>
+<!--************************ Let's Simplify ************************-->
+            <section data-auto-animate>
+                <h3>Let's Simplify</h3>
+
+                <p>
+                    Let's just make a class for a <code class="hljs-type">Person</code>
+                </p>
+            </section>
+            <section data-auto-animate>
+                <h3>Let's Simplify</h3>
+
+                <pre data-id="code-animation"><code class="hljs csharp" data-trim data-line-numbers="">
+public class Person
+{
+
+}
+                </code></pre>
+                <div class="fragment">
+                    <p>First we need to add some data about <code class="hljs-type">Person</code></p>
+                    <p>Let's give them a First and Last Name!</p>
+                </div>
+            </section>
+            <section data-auto-animate>
+                <h3>Let's Simplify</h3>
+
+                <pre data-id="code-animation"><code class="hljs csharp" data-trim data-line-numbers="">
+public class Person
+{
+    private string FirstName;
+    private string LastName;
+}
+                </code></pre>
+                <ul class="fragment">
+                    <li><code class="hljs-keyword">private</code> is the accessibility modifier</li>
+                    <li><code class="hljs-keyword">string</code> is the type</li>
+                    <li><code class="">FirstName</code> is the variable name</li>
+                </ul>
+            </section>
+
+            <section data-auto-animate>
+                <h3>Coding Along At Home</h3>
+
+                <pre data-id="code-animation"><code class="hljs csharp" data-trim data-line-numbers="">
+using System;
+
+namespace ConsoleApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // What goes here?
+        }
+    }
+
+    public class Person
+    {
+        private string FirstName;
+        private string LastName;
+    }
+}
+                </code></pre>
             </section>
 
         </div>

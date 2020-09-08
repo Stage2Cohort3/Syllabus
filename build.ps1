@@ -62,5 +62,5 @@ Get-ChildItem -Recurse -Path ./docs -Include *.html | ForEach-Object -Process {
         ForEach-Object {
             $_ -replace "<a href=`"([^`"]*)\.(?:reveal)?md", "<a href=`"`$1.html" 
         } | 
-        Out-File $_.FullName
+        Out-File $_.FullName -Encoding utf8
 }
