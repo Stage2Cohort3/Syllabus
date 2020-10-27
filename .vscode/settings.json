@@ -13,12 +13,5 @@
         "rebalancing",
         "struct"
     ],
-    // "liveServer.settings.root": "/docs",
-    "liveServer.settings.mount": [
-        ["./docs", "/Syllabus/"],
-        // ["/Syllabus", "/docs"]
-    ],
-    "files.associations": {
-        "*.revealmd": "markdown"
-    }
+    "compile-hero.disable-compile-files-on-did-save-code": true
 }

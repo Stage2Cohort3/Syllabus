@@ -1,0 +1,28 @@
+---
+author: Pearse Hutson
+title: unit 3 intro
+date: June 21, 2017
+---
+
+# Foo
+
+```csharp
+Console.WriteLine("hello world")
+```
+
+---
+
+# Bar
+
+* test
+* test
+
+---
+
+# I'm Under Here
+
+~~~mermaid
+sequenceDiagram
+    Alice->>John: Hello John, how are you?
+    John-->>Alice: Great!
+~~~

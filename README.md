@@ -1,28 +1,41 @@
-# Stage 2 Cohort 3 Syllabus
+# AAB .NET Core Syllabus
 
-## Contribution Guide
+A 6-month Course in .NET Core, OOP, and Backend Software Development
 
-### Prerequisites
+## Units
 
-- `npm install`
-- Pandoc: <https://pandoc.org/installing.html>
+| Unit | Unit Name | Topics | Timeframe |
+|----------:|-----------|--------|-----------|
+| 1 | [Hello World](./unit_01/README.md) | git, GitHub, Visual Studio, .NET Core Console App | 2 Weeks |
+| 2 | [OOP Basics](./unit_02/README.md)| C#, Encapsulation, Data Abstraction, Polymorphism, Inheritance | 3 Weeks |
+| 3 | [Consuming REST Interfaces](./unit_03/README.md)| HTTP, REST, JSON | 3 Weeks |
+| 4 | [Building REST Interfaces](./unit_04/README.md)| WebAPI, ASP .NET | 3 Weeks |
+| 5 | [Databases](./unit_05/README.md)| SQL, ERD | 2 Weeks |
+| 6 | [Intermediate OOP](./unit_06/README.md)| Singletons, Factories, TDD | 2 Weeks |
+| 7 | [Non-REST Applications](./unit_07/README.md) | Windows Services, Scheduled Tasks | 3 Weeks |
+| 8 | [Final Project](./unit_08/README.md)| All of the above | 4 Weeks |
 
-- To create a text document, simply create a `.md` file where you want it to be under /src
-- To create a reveal.js slide show, simply create a `.revealmd` where you want it to be /src
+## Assignments and Projects
 
-Once all desired change have been made, run `npm run build`. This should remove the existing build from /docs, and build all the files from scratch.
+All assignments will be done through GitHub.
 
-Then push up to the repo.
+### GitHub Flow for Single Assignments
 
-### Notes
+1. Instructor makes GitHub Repo for assignment
+    - Skip this step when using previously created assignments
+1. Students fork the repo into their personal GitHub
+1. Students clone their repo locally and work on the assignment
+    - Questions about their own code or solutions should be made as issues on their personal fork of the repo
+    - Questions about the assignment or for clarification of details should be made as issues on the original repo
+1. When a student is finished with their assignment, they will Pull Request it back to the original repo
+    - Students should work and commit in master
+1. Teachers give feedback on the Pull Request
+    - Leave comments, code review in the code itself
+1. As Students receive feedback, they can continue to make changes they commit to their master branch. This will update the Pull Request
+1. Once the teacher thinks the assignment is complete to their liking, they can close the Pull Request
 
-- All links that end in `.md` or `.revealmd` will be converted to `.html`
-- Mermaid charts in revealjs have to use `<div class="mermaid">` to be rendered
+### GitHub Flow for Longer Projects
 
-## Process Help
+Longer group projects will be hosted in an organization GitHub repo. The teacher will create the empty repo and ensure all group members have appropriate access to it.
 
-Nice to haves:
-
-- External CI that builds /docs automatically
-- Better revealjs mermaid support (probably will require mermaid/reveal to make changes)
-- Better build and serve scripts.
+Students will use branching to add features. Teachers and Students will add Issues that need to be addressed, and referenced by number in commit messages.
