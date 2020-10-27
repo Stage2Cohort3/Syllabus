@@ -1,16 +1,5 @@
 # Unit 8 - Final Project
 
-## Mermaid Test
-
-~~~{.mermaid format=svg width=1200}
-classDiagram
-    class BankAccount
-    BankAccount : +String owner
-    BankAccount : +Bigdecimal balance
-    BankAccount : +deposit(amount)
-    BankAccount : +withdrawl(amount)
-~~~
-
 ## Purpose of Unit
 
 The purpose of Unit Eight is to give students familiarity with building a project from scratch. This will include working with other team members to distribute work, and will have changing requirements as the project proceeds. The sessions will be used by students to work on the project, with mentors on hand to answer questions but not to lead a lecture.

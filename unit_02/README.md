@@ -19,6 +19,7 @@ The purpose of Unit Two is to familiarize students with Basic OOP principals.
 - Classes, objects, primitives, properties, methods
 - Encapsulation, Data Abstraction
 - Inheritance, Polymorphism, abstract classes, interfaces
+- Composition
 
 ## Lessons
 

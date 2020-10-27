@@ -22,7 +22,14 @@ The purpose of Unit Four is to familiarize students with building REST interface
 | [Adding Query Parameters](<!-- TODO -->) |  | Code Along |
 | [Searchable Mock-e-dex](<!-- TODO -->) |  | Solo Project |
 | [Hosting with IIS](<!-- TODO -->) |  | Code Along |
-| [Account Scores Service](<!-- TODO -->) |  | Group Project |
+| [Task API](<!-- TODO -->) |  | Group Project |
+
+### ToDo API
+
+Full CRUD API for Tasks
+
+- Tasks
+- Users
 
 ### Account Scores Service idea
 
