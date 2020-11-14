@@ -4,39 +4,39 @@ A 5-month Course in .NET Core, OOP, and Backend Software Development
 
 ## Units
 
-| Unit Name | Topics | Timeframe |
-|-----------|--------|-----------|
-| [Hello World](./unit_01/README.md) | git, GitHub, Visual Studio, .NET Core Console App | 2 Weeks |
-| [OOP Basics](./unit_02/README.md)| C#, Encapsulation, Data Abstraction, Polymorphism, Inheritance, Composition | 3 Weeks |
-| [Consuming REST Interfaces](./unit_03/README.md)| HTTP, REST, JSON | 3 Weeks |
-| [Building REST Interfaces](./unit_04/README.md)| WebAPI, ASP .NET | 3 Weeks |
-| [Databases](./unit_05/README.md)| SQL, ERD | 2 Weeks |
-| [Windows Services](./unit_07/README.md) | Hosting/Deploying .NET Core apps | 2 Weeks |
-| [Final Project](./unit_08/README.md)| All of the above | 4 Weeks |
+| Unit Name                                        | Topics                                                                      | Timeframe |
+|--------------------------------------------------|-----------------------------------------------------------------------------|-----------|
+| [Hello World](./unit_01/README.md)               | git, GitHub, Visual Studio, .NET Core Console App                           | 2 Weeks   |
+| [OOP Basics](./unit_02/README.md)                | C#, Encapsulation, Data Abstraction, Polymorphism, Inheritance, Composition | 3 Weeks   |
+| [Consuming REST Interfaces](./unit_03/README.md) | HTTP, REST, JSON                                                            | 3 Weeks   |
+| [Building REST Interfaces](./unit_04/README.md)  | WebAPI, ASP .NET                                                            | 3 Weeks   |
+| [Databases](./unit_05/README.md)                 | SQL, ERD                                                                    | 2 Weeks   |
+| [Windows Services](./unit_07/README.md)          | Build dotnet core Worker Services                                           | 2 Weeks   |
+| [Final Project](./unit_08/README.md)             | All of the above                                                            | 4 Weeks   |
 
 ## Calendar
 
-| Week | Unit | Lesson | Assignment |
-|-----:|------|--------|------------|
-| Jan 8 | Hello World | Development Setup | Hello World |
-| Jan 15 | Hello World | --- | Banking App |
-| Jan 22 | OOP Basics | Intro to OOP | Pet Store |
-| Jan 29 | OOP Basics | OOP Practice | Rick's Guitar App |
-| Feb 5 | OOP Basics | --- | Upgraded Banking App |
-| Feb 12 | Consuming REST Interfaces| GET | AAB Account Balance Report |
-| Feb 19 | Consuming REST Interfaces | POST/PUT/PATCH | Account Maker App |
-| Feb 26 | Consuming REST Interfaces | --- | MailCat Email Console Viewer |
-| Mar 5 | Building REST Interfaces | Getting started with ASP.NET | Mock-e-dex |
-| Mar 12 | Building REST Interfaces | Query Parameters | Searchable Mock-e-dex |
-| Mar 19 | Building REST Interfaces | --- | Task API |
-| Mar 26 | Databases | Intro to SQL/ERD | Mystery in SQL City |
-| Apr 2 | Databases | Entity Framework and .NET Core ORM | Persistent Task API |
-| Apr 9 | Windows Services | Intro to Windows Services | Timer and Worker |
-| Apr 16 | Windows Services | --- | BLC Vault Rebalancer
-| Apr 23 | Final Project | Final Project Description and Initial Planning | Final Project Work Session |
-| Apr 30 | Final Project| --- | Final Project Work Session |
-| May 7 | Final Project | --- | Final Project Work Session |
-| May 14 | Final Project | --- | Presentation |
+|   Week | Unit                      | Lesson                                         | Assignment (Overview)        |
+|-------:|---------------------------|------------------------------------------------|------------------------------|
+|  Jan 8 | Hello World               | Development Setup                              | git Todo and Hello World     |
+| Jan 15 | Hello World               | ---                                            | Banking App                  |
+| Jan 22 | OOP Basics                | Intro to OOP                                   | Pet Store                    |
+| Jan 29 | OOP Basics                | OOP Practice                                   | Rick's Guitar App            |
+|  Feb 5 | OOP Basics                | ---                                            | Upgraded Banking App         |
+| Feb 12 | Consuming REST Interfaces | GET                                            | AAB Account Balance Report   |
+| Feb 19 | Consuming REST Interfaces | POST/PUT                                | Account Maker App            |
+| Feb 26 | Consuming REST Interfaces | ---                                            | MailCat Email Console Viewer |
+|  Mar 5 | Building REST Interfaces  | Getting started with ASP.NET                   | Mock-e-dex                   |
+| Mar 12 | Building REST Interfaces  | Query Parameters                               | Searchable Mock-e-dex        |
+| Mar 19 | Building REST Interfaces  | ---                                            | Task API                     |
+| Mar 26 | Databases                 | Intro to SQL/ERD                               | Mystery in SQL City          |
+|  Apr 2 | Databases                 | Entity Framework and .NET Core ORM             | Persistent Task API          |
+|  Apr 9 | Windows Services          | Intro to Windows Services                      | Timer and Worker             |
+| Apr 16 | Windows Services          | ---                                            | BLC Vault Rebalancer         |
+| Apr 23 | Final Project             | Final Project Description and Initial Planning | Final Project Work Session   |
+| Apr 30 | Final Project             | ---                                            | Final Project Work Session   |
+|  May 7 | Final Project             | ---                                            | Final Project Work Session   |
+| May 14 | Final Project             | ---                                            | Presentation                 |
 
 ## Assignments and Projects
 

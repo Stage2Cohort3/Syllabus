@@ -23,14 +23,14 @@ The purpose of Unit Two is to familiarize students with Basic OOP principals.
 
 ## Lessons
 
-| Name | Associated Repo | Type |
-|------|-----------------|------|
-| [Intro to classes and objects](./intro_to_classes_and_objects.md) |  | Lecture |
-| [Object Oriented Shapes](./object_oriented_shapes.md) |  | Code Along |
-| [Pet Store](<!-- TODO -->) |  | Solo Project |
-| [Car Factory](<!-- TODO -->) |  | Solo Project |
-| [Rick's Guitar App](<!-- TODO -->) | | Solo Project |
-| [Upgraded Banking App](<!-- TODO -->) |  | Group Project |
+| Name                                                              | Associated Repo | Type          |
+|-------------------------------------------------------------------|-----------------|---------------|
+| [Intro to classes and objects](./intro_to_classes_and_objects.md) |                 | Lecture       |
+| [Object Oriented Shapes](./object_oriented_shapes.md)             |                 | Code Along    |
+| [Pet Store](<!-- TODO -->)                                        |                 | Solo Project  |
+| [Car Factory](<!-- TODO -->)                                      |                 | Solo Project  |
+| [Rick's Guitar App](<!-- TODO -->)                                |                 | Solo Project  |
+| [Upgraded Banking App](<!-- TODO -->)                             |                 | Group Project |
 
 ## Slides
 
