@@ -1,4 +1,4 @@
-# Unit 4 - Building REST Interfaces
+# Building REST Interfaces
 
 ## Purpose of Unit
 

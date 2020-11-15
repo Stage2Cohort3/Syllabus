@@ -1,4 +1,4 @@
-# Unit 8 - Final Project
+# Final Project
 
 ## Purpose of Unit
 
@@ -12,12 +12,12 @@ The company provides a special feature that other banks don't provide. Every acc
 
 #### Terminology and Abbreviations
 
-| Term | Definition |
-|:------:|------------|
-| FA | Financial Advisor |
-| AH | Account Holder |
-| GCS | Galactic Currency Standard |
-| BLC | BluCoin |
+| Term | Definition                 |
+|:----:|----------------------------|
+|  FA  | Financial Advisor          |
+|  AH  | Account Holder             |
+| GCS  | Galactic Currency Standard |
+| BLC  | BluCoin                    |
 
 #### Base Requirements
 

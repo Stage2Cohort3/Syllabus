@@ -1,4 +1,4 @@
-# Unit 7 - Non-REST Applications
+# Windows Services
 
 ## Purpose of Unit
 

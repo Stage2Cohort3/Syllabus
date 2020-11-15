@@ -1,4 +1,4 @@
-# Unit 2 - OOP Basics
+# OOP Basics
 
 ## Purpose of Unit
 

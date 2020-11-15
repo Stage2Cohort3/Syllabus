@@ -4,15 +4,15 @@ A 5-month Course in .NET Core, OOP, and Backend Software Development
 
 ## Units
 
-| Unit Name                                        | Topics                                                                      | Timeframe |
-|--------------------------------------------------|-----------------------------------------------------------------------------|-----------|
-| [Hello World](./unit_01/README.md)               | git, GitHub, Visual Studio, .NET Core Console App                           | 2 Weeks   |
-| [OOP Basics](./unit_02/README.md)                | C#, Encapsulation, Data Abstraction, Polymorphism, Inheritance, Composition | 3 Weeks   |
-| [Consuming REST Interfaces](./unit_03/README.md) | HTTP, REST, JSON                                                            | 3 Weeks   |
-| [Building REST Interfaces](./unit_04/README.md)  | WebAPI, ASP .NET                                                            | 3 Weeks   |
-| [Databases](./unit_05/README.md)                 | SQL, ERD                                                                    | 2 Weeks   |
-| [Windows Services](./unit_07/README.md)          | Build dotnet core Worker Services                                           | 2 Weeks   |
-| [Final Project](./unit_08/README.md)             | All of the above                                                            | 4 Weeks   |
+| Unit Name                                               | Topics                                                                      | Timeframe |
+|---------------------------------------------------------|-----------------------------------------------------------------------------|-----------|
+| [Hello World](./hello_world/README.md)                  | git, GitHub, Visual Studio, .NET Core Console App                           | 2 Weeks   |
+| [OOP Basics](./oop_basics/README.md)                    | C#, Encapsulation, Data Abstraction, Polymorphism, Inheritance, Composition | 3 Weeks   |
+| [Consuming REST Interfaces](./consuming_rest/README.md) | HTTP, REST, JSON                                                            | 3 Weeks   |
+| [Building REST Interfaces](./building_rest/README.md)   | WebAPI, ASP .NET                                                            | 3 Weeks   |
+| [Databases](./databases/README.md)                      | SQL, ERD                                                                    | 2 Weeks   |
+| [Windows Services](./windows_services/README.md)        | Building dotnet core Worker Services                                        | 2 Weeks   |
+| [Final Project](./final_project/README.md)              | All of the above                                                            | 4 Weeks   |
 
 ## Calendar
 
@@ -24,7 +24,7 @@ A 5-month Course in .NET Core, OOP, and Backend Software Development
 | Jan 29 | OOP Basics                | OOP Practice                                   | Rick's Guitar App            |
 |  Feb 5 | OOP Basics                | ---                                            | Upgraded Banking App         |
 | Feb 12 | Consuming REST Interfaces | GET                                            | AAB Account Balance Report   |
-| Feb 19 | Consuming REST Interfaces | POST/PUT                                | Account Maker App            |
+| Feb 19 | Consuming REST Interfaces | POST/PUT                                       | Account Maker App            |
 | Feb 26 | Consuming REST Interfaces | ---                                            | MailCat Email Console Viewer |
 |  Mar 5 | Building REST Interfaces  | Getting started with ASP.NET                   | Mock-e-dex                   |
 | Mar 12 | Building REST Interfaces  | Query Parameters                               | Searchable Mock-e-dex        |
