@@ -16,27 +16,27 @@ A 5-month Course in .NET Core, OOP, and Backend Software Development
 
 ## Calendar
 
-|   Week | Unit                      | Lesson                                         | Assignment (Overview)        |
-|-------:|---------------------------|------------------------------------------------|------------------------------|
-|  Jan 8 | Hello World               | Development Setup                              | git Todo and Hello World     |
-| Jan 15 | Hello World               | ---                                            | Banking App                  |
-| Jan 22 | OOP Basics                | Intro to OOP                                   | Pet Store                    |
-| Jan 29 | OOP Basics                | OOP Practice                                   | Rick's Guitar App            |
-|  Feb 5 | OOP Basics                | ---                                            | Upgraded Banking App         |
-| Feb 12 | Consuming REST Interfaces | GET                                            | AAB Account Balance Report   |
-| Feb 19 | Consuming REST Interfaces | POST/PUT                                       | Account Maker App            |
-| Feb 26 | Consuming REST Interfaces | ---                                            | MailCat Email Console Viewer |
-|  Mar 5 | Building REST Interfaces  | Getting started with ASP.NET                   | Mock-e-dex                   |
-| Mar 12 | Building REST Interfaces  | Query Parameters                               | Searchable Mock-e-dex        |
-| Mar 19 | Building REST Interfaces  | ---                                            | Task API                     |
-| Mar 26 | Databases                 | Intro to SQL/ERD                               | Mystery in SQL City          |
-|  Apr 2 | Databases                 | Entity Framework and .NET Core ORM             | Persistent Task API          |
-|  Apr 9 | Windows Services          | Intro to Windows Services                      | Timer and Worker             |
-| Apr 16 | Windows Services          | ---                                            | BLC Vault Rebalancer         |
-| Apr 23 | Final Project             | Final Project Description and Initial Planning | Final Project Work Session   |
-| Apr 30 | Final Project             | ---                                            | Final Project Work Session   |
-|  May 7 | Final Project             | ---                                            | Final Project Work Session   |
-| May 14 | Final Project             | ---                                            | Presentation                 |
+|   Week | Unit                      | Lesson                                         | Assignment (Overview)                                                                                                        |
+|-------:|---------------------------|------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+|  Jan 8 | Hello World               | Development Setup                              | [git Todo](https://github.com/Stage2Cohort3/git_todo) and [Hello World](https://github.com/Stage2Cohort3/csharp_hello_world) |
+| Jan 15 | Hello World               | ---                                            | [Banking App](https://github.com/Stage2Cohort3/banking_app)                                                                  |
+| Jan 22 | OOP Basics                | Intro to OOP                                   | [Pet Store](https://github.com/Stage2Cohort3/pet_store)                                                                      |
+| Jan 29 | OOP Basics                | OOP Practice                                   | [Rick's Guitar App](https://github.com/Stage2Cohort3/ricks_guitar_app)                                                       |
+|  Feb 5 | OOP Basics                | ---                                            | Upgraded Banking App                                                                                                         |
+| Feb 12 | Consuming REST Interfaces | GET                                            | AAB Account Balance Report                                                                                                   |
+| Feb 19 | Consuming REST Interfaces | POST/PUT                                       | Account Maker App                                                                                                            |
+| Feb 26 | Consuming REST Interfaces | ---                                            | MailCat Email Console Viewer                                                                                                 |
+|  Mar 5 | Building REST Interfaces  | Getting started with ASP.NET                   | Mock-e-dex                                                                                                                   |
+| Mar 12 | Building REST Interfaces  | Query Parameters                               | Searchable Mock-e-dex                                                                                                        |
+| Mar 19 | Building REST Interfaces  | ---                                            | Task API                                                                                                                     |
+| Mar 26 | Databases                 | Intro to SQL/ERD                               | Mystery in SQL City                                                                                                          |
+|  Apr 2 | Databases                 | Entity Framework and .NET Core ORM             | Persistent Task API                                                                                                          |
+|  Apr 9 | Windows Services          | Intro to Windows Services                      | Timer and Worker                                                                                                             |
+| Apr 16 | Windows Services          | ---                                            | BLC Vault Rebalancer                                                                                                         |
+| Apr 23 | Final Project             | Final Project Description and Initial Planning | Final Project Work Session                                                                                                   |
+| Apr 30 | Final Project             | ---                                            | Final Project Work Session                                                                                                   |
+|  May 7 | Final Project             | ---                                            | Final Project Work Session                                                                                                   |
+| May 14 | Final Project             | ---                                            | Presentation                                                                                                                 |
 
 ## Assignments and Projects
 
